@@ -1,0 +1,91 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #282c34;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-left: 5px solid #282c34;
+}
+
+.experience-item, .project-item {
+    background: #f4f4f4;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-left: 5px solid #282c34;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin: 0.5em 0 0.2em;
+}
+
+#contact input, #contact textarea {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 0.7em;
+    border: none;
+    background-color: #282c34;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #282c34;
+    color: #fff;
+}
